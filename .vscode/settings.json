@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "distr": true,
+    "node_modules": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.map": {
+      "when": "$(basename)"
+    }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "typescript.preferences.importModuleSpecifierEnding": "auto",
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
